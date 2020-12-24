@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculadora.css"/>
+    <link rel="stylesheet" href="./botoes-calculadora.css"/>
+    <link rel="stylesheet" href="./calculadora.js">
+</head>
+<body>
+    <div id="calculadora">
+        <div id="borda-painel">
+            <div id="painel">
+
+            </div>
+        </div>
+        <div id="borda-tela">
+            <input type="text" id="screen" readonly>
+        </div>
+        <div id="borda-teclado">
+            <div id="teclado">
+                <input type="button" value="OFF" id="off" onclick="keyPressed('off')"></input>
+                <input type="button" value="CE" id="ce" onclick="keyPressed('ce')"></input>
+                <input type="button" value="%" id="porcentagem" onclick="keyPressed('percent')"></input>
+                <input type="button" value="&radic;" id="raizQ" onclick="keyPressed('rootSquare')"></input>
+                <input type="button" value="ON/O" id="on" onclick="keyPressed('on')"></input>
+                <input type="button" value="MRC" id="mrc"></input>
+                <input type="button" value="M-" id="mmenos"></input>
+                <input type="button" value="M+" id="mmais"></input>
+                <input type="button" value="&#247;" id="divisao" onclick="keyPressed('division')"></input>
+                <input type="button" value="7" id="sete" onclick="keyPressed(7)"></input>
+                <input type="button" value="8" id="oito" onclick="keyPressed(8)"></input>
+                <input type="button" value="9" id="nove" onclick="keyPressed(9)"></input>
+                <input type="button" value="&#215;" id="multiplicacao" onclick="keyPressed('multiplication')"></input>
+                <input type="button" value="4" id="quatro" onclick="keyPressed(4)"></input>
+                <input type="button" value="5" id="cinco" onclick="keyPressed(5)"></input>
+                <input type="button" value="6" id="seis" onclick="keyPressed(6)"></input>
+                <input type="button" value="&#150;" id="subtracao" onclick="keyPressed('subtraction')"></input>
+                <input type="button" value="1" id="um" onclick="keyPressed(1)"></input>
+                <input type="button" value="2" id="dois" onclick="keyPressed(2)"></input>
+                <input type="button" value="3" id="tres" onclick="keyPressed(3)"></input>
+                <input type="button" value="+" id="adicao" onclick="keyPressed('sum')"></input>
+                <input type="button" value="0" id="zero" onclick="keyPressed(0)"></input>
+                <input type="button" value="." id="ponto" onclick="keyPressed('dot')"></input>
+                <input type="button" value="=" id="igual" onclick="keyPressed('result')"></input></input>
+            </div>
+        </div>
+        <div id="decoracao">
+            <div id="borda-decoracao">    
+                + <br/>
+                &#150; <br/>
+                &#215; <br/>
+                &#247; <br/>
+            </div>
+        </div>
+    </div>  
+    <script language="javascript" src="./calculadora.js"></script>
+</body>
+</html>

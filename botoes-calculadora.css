@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+input#off{
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: 60px;
+    left: 24px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: red;
+    border-radius: 50%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#ce {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 26px;
+    height: 26px;
+    top: 34px;
+    left: 83px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: red;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0.5px 1px 0px black;    
+}
+input#porcentagem {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 26px;
+    height: 26px;
+    top: 8px;
+    left: 117px;
+    text-align: left;
+    font-size: 10pt;
+    line-height: 24px;
+    color: red;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0.5px 1px 0px black;  
+}
+input#raizQ {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 26px;
+    height: 26px;;
+    top: -18px;
+    left: 151px;
+    text-align: center;
+    font-size: 12pt;
+    line-height: 26px;
+    color: red;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0.5px 1px 0px black; 
+}
+input#on {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 52px;
+    height: 26px;
+    top: -44px;
+    left: 188px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: red;
+    border-radius: 50%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#mrc {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -32px;
+    left: 25px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: rgb(161,27,112);
+    background: white;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#mmenos {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -58px;
+    left: 80px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: rgb(161,27,112);
+    background: white;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#mmais {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -84px;
+    left: 135px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: rgb(161,27,112);
+    background: white;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#divisao {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -110px;
+    left: 190px;
+    text-align: center;
+    font-size: 20pt;
+    line-height: 24px;
+    color: rgb(161,27,112);
+    background: white;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;    
+}
+input#sete {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -101px;
+    left: 25px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;    
+}
+input#oito {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -127px;
+    left: 80px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#nove {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -153px;
+    left: 135px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#multiplicacao {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -179px;
+    left: 190px;
+    text-align: center;
+    font-size: 20pt;
+    line-height: 24px;
+    color: rgb(161,27,112);
+    background: white;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#quatro {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -170px;
+    left: 25px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#cinco {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -196px;
+    left: 80px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#seis {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -222px;
+    left: 135px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#subtracao {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -248px;
+    left: 190px;
+    text-align: center;
+    font-size: 20pt;
+    line-height: 24px;
+    color: rgb(161,27,112);
+    background: white;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;    
+}
+input#um {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -239px;
+    left: 25px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#dois{
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -265px;
+    left: 80px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#tres{
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -291px;
+    left: 135px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#adicao {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 61px;
+    top: -317px;
+    left: 190px;
+    text-align: center;
+    font-size: 20pt;
+    line-height: 60px;
+    color: rgb(161,27,112);
+    background: white;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black; 
+}
+input#zero {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -345px;
+    left: 25px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#ponto {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -371px;
+    left: 80px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
+input#igual {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 47px;
+    height: 26px;
+    top: -397px;
+    left: 135px;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 24px;
+    color: white;
+    background: rgb(161,27,112);;
+    border-radius: 30%;
+    box-shadow: 0.5px 1px 0px black;
+}
